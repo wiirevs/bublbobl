@@ -1,0 +1,22 @@
+{
+  "game": "Bubble Bobble",
+  "wikidata": "Q88759",
+  "original": [
+    {
+      "region": "Japan",
+      "revision": "Ver 0.1 (MAME: bublbobl)"
+    }
+  ],
+  "system": "Arcade",
+  "type": "recomp",
+  "status": "released",
+  "targets": ["Wii"],
+  "toolchain": "WiiRevs",
+  "project": "Bubble Bobble for Wii",
+  "approach": "The main, sub and sound Z80 programs statically translated to C; the MCU, video and sound chips recreated in C on the Wii",
+  "notes": "Runs natively on a real Wii, launched with the Homebrew Channel. Two players at once; sideways Wii Remote, Classic Controller and GameCube controller; rumble; 480p.",
+  "tags": ["taito", "platform", "wii"],
+  "maintainers": [{ "name": "WiiRevs", "link": "https://wiirevs.com" }],
+  "links": [{ "label": "WiiRevs", "url": "https://wiirevs.com" }],
+  "launchers": [{ "path": "bublbobl.zip", "in": "release", "format": "zip" }]
+}
